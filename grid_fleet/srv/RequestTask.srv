@@ -1,0 +1,8 @@
+string vehicle_id
+---
+bool success
+int32 pickup_x
+int32 pickup_y
+int32 dropoff_x
+int32 dropoff_y
+int32 task_id

@@ -1,0 +1,8 @@
+string vehicle_id
+int32 current_x
+int32 current_y
+int32 target_x
+int32 target_y
+---
+bool approved
+string reason
