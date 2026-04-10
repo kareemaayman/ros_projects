@@ -1,0 +1,12 @@
+# Goal
+string event_type
+int32 alert_level
+---
+# Result
+bool success
+string message
+---
+# Feedback
+string status
+int32 elapsed_seconds
+
