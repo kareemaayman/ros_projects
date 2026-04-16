@@ -1,0 +1,37 @@
+<launch>
+
+    <!-- CAMERA -->
+    <node pkg="exam_proctoring" type="camera_node.py" name="camera_node" output="screen">
+        <param name="camera_source" value="0"/>
+        <param name="frame_rate" value="10"/>
+    </node>
+
+    <!-- FACE -->
+    <node pkg="exam_proctoring" type="face_node.py" name="face_node" output="screen"/>
+
+    <!-- OBJECT -->
+    <node pkg="exam_proctoring" type="object_detection_node.py" name="object_detection_node" output="screen"/>
+
+    <!-- DEPTH -->
+    <node pkg="exam_proctoring" type="depth_node.py" name="depth_node" output="screen"/>
+    
+    <node pkg="exam_proctoring"
+      type="combined_viewer_node.py"
+      name="combined_viewer_node"
+      output="screen"/>
+
+    <!-- BEHAVIOR -->
+    <node pkg="exam_proctoring" type="behavior_node.py" name="behavior_node" output="screen"/>
+
+    <!-- RULE ENGINE -->
+    <node pkg="exam_proctoring" type="rule_node.py" name="rule_node" output="screen"/>
+
+    <!-- ALERT -->
+    <node pkg="exam_proctoring" type="alert_node.py" name="alert_node" output="screen">
+        <param name="alert_level" value="HIGH"/>
+    </node>
+
+    <!-- MONITOR -->
+    <node pkg="exam_proctoring" type="monitor_node.py" name="monitor_node" output="screen"/>
+
+</launch>

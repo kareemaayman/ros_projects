@@ -1,0 +1,10 @@
+# ======= GOAL (what client sends) =======
+string violation_type
+int32 severity
+---
+# ======= RESULT (what server returns) =======
+bool success
+string message
+---
+# ======= FEEDBACK (progress updates) =======
+string status

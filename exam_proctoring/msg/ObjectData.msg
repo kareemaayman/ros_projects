@@ -1,0 +1,10 @@
+std_msgs/Header header
+bool object_detected
+string[] object_labels
+float32[] confidences
+int32[] bbox_x
+int32[] bbox_y
+int32[] bbox_w
+int32[] bbox_h
+bool phone_detected
+bool book_detected
