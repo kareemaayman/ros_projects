@@ -1,0 +1,12 @@
+# Goal
+string command
+float32 duration
+
+---
+# Feedback
+string current_state
+
+---
+# Result
+bool success
+string message

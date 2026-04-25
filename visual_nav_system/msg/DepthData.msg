@@ -1,0 +1,4 @@
+float32 average_depth
+float32 min_depth
+float32 max_depth
+bool obstacle_detected

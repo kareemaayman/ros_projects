@@ -1,0 +1,9 @@
+# Request
+float32 dx
+float32 dy
+
+---
+# Response
+string movement
+float32 confidence
+bool valid
