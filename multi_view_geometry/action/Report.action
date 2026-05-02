@@ -1,0 +1,11 @@
+# ── GOAL ──────────────────────────────────────────
+string request_type       # e.g. "full_report" or "quick_check"
+---
+# ── RESULT ────────────────────────────────────────
+string final_state        # RELIABLE | UNRELIABLE | LOW_FEATURES
+int32 total_inliers
+float32 reliability_score # 0.0 – 1.0
+---
+# ── FEEDBACK ──────────────────────────────────────
+string current_status
+int32 processed_frames

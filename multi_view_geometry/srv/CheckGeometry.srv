@@ -1,0 +1,10 @@
+# Request: a set of point correspondences to validate
+float32[] query_x
+float32[] query_y
+float32[] train_x
+float32[] train_y
+---
+# Response
+bool is_consistent        # true if inlier_ratio > 0.3
+int32[] inlier_indices    # which indices are epipolar inliers
+float32 inlier_ratio      # fraction of inliers
