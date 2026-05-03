@@ -181,7 +181,7 @@ Provides real-time visualization of multiple data streams.
 
 ```bash
 cd ~/catkin_ws/src
-git clone <repository-url> exam_proctoring
+git clone https://github.com/kareemaayman/ros_projects.git exam_proctoring
 cd ~/catkin_ws
 ```
 
@@ -348,7 +348,11 @@ rosparam set /alert_node/alert_level HIGH
 
 ## 👥 Contributors <a name="contributors"></a>
 
-- Initial development team
+- Kareema Ayman
+- Bassant Mohammed
+- Mariam Saafan
+- Yasmeen Ashraf 
+- Manar Mahmoud
 
 ---
 

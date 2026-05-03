@@ -403,8 +403,11 @@ rosparam set /inlier_ratio_threshold 0.3
 
 ## 👥 Contributors <a name="contributors"></a>
 
-- Multi-view geometry team
-
+- Kareema Ayman
+- Bassant Mohammed
+- Mariam Saafan
+- Yasmeen Ashraf 
+- Manar Mahmoud
 ---
 
 **For more information or support, please refer to the ROS documentation or contact the development team.**

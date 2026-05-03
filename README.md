@@ -38,7 +38,7 @@ mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/src
 
 # Clone repository
-git clone <repository-url> ros_projects
+git clone https://github.com/kareemaayman/ros_projects.git
 
 # Install dependencies
 cd ~/catkin_ws

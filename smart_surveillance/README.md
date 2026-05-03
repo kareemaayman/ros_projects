@@ -374,8 +374,11 @@ rosparam set /alert_level_low 1
 
 ## 👥 Contributors <a name="contributors"></a>
 
-- Smart surveillance development team
-
+- Kareema Ayman
+- Bassant Mohammed
+- Mariam Saafan
+- Yasmeen Ashraf 
+- Manar Mahmoud
 ---
 
 **For more information or support, please refer to the ROS documentation or contact the development team.**
