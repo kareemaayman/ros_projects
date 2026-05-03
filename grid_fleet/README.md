@@ -14,7 +14,7 @@
 ## 📝 Table of Contents
 
 - [About](#about)
-- [Demo] (#demo)
+- [Demo](#demo)
 - [Features](#features)
 - [System Architecture](#system-architecture)
 - [Nodes](#nodes)
