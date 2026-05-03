@@ -14,6 +14,7 @@
 ## 📝 Table of Contents
 
 - [About](#about)
+- [Demo](#demo)
 - [Features](#features)
 - [System Architecture](#system-architecture)
 - [Nodes](#nodes)
@@ -30,6 +31,10 @@
 The **Visual Navigation System** is a comprehensive ROS-based vision-based navigation platform for autonomous robots. It combines visual odometry, object detection, depth estimation, and motion analysis to enable robots to navigate autonomously using visual cues. The system supports goal-based navigation with real-time obstacle detection and path planning.
 
 This system is ideal for indoor robotic navigation, exploration, and autonomous mapping in GPS-denied environments.
+
+## 🎥 Demo <a name="demo"></a>
+
+https://github.com/user-attachments/assets/6631e4ff-93cb-4f4c-a7a0-26fc983ba941
 
 ## ✨ Features <a name="features"></a>
 
